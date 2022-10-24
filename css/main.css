@@ -9,6 +9,7 @@ body {
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
+  color: #222222;
 }
 
 .container {
@@ -18,10 +19,13 @@ body {
   padding: 0 20px;
 }
 
+/* Header styles */
+
 .header {
   position: sticky;
   top: 0;
   left: 0;
+  z-index: 1;
   background-color: #ffffff;
   box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.15);
 }
@@ -52,7 +56,7 @@ body {
   text-decoration: none;
 }
 
-.header__link {
+.link {
   background-color: #222222;
   padding: 10px 25px;
   padding-bottom: 12px;
@@ -68,4 +72,53 @@ body {
   -moz-border-radius: 4px;
   -ms-border-radius: 4px;
   -o-border-radius: 4px;
+}
+
+/* Introduction section style */
+
+.intro-section {
+  padding: 100px 0;
+  padding-left: 78px;
+  overflow: hidden;
+}
+
+.intro-section .container {
+  position: relative;
+  padding-top: 45px;
+  padding-bottom: 54px;
+}
+
+.intro__content {
+  width: 100%;
+  max-width: 400px;
+}
+
+.intro__logo {
+  margin-bottom: 11px;
+}
+
+.intro__heading {
+  margin-bottom: 18px;
+  font-weight: 400;
+  font-size: 54px;
+  line-height: 110%;
+  color: #222222;
+}
+
+.intro__description {
+  margin-bottom: 20px;
+}
+
+.intro__links {
+  display: flex;
+  gap: 10px;
+}
+
+.intro__link {
+}
+
+.intro__phone-img {
+  position: absolute;
+  top: 0;
+  right: 100px;
 }
